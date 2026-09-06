@@ -1,5 +1,24 @@
 # OPlus Camera Enhance
 
+[![Version](https://img.shields.io/badge/version-0.3.8-007EC6?style=flat-square)](app/build.gradle.kts)
+[![Android](https://img.shields.io/badge/Android-15%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](app/build.gradle.kts)
+[![OnePlus](https://img.shields.io/badge/OnePlus-ColorOS-F5010C?style=flat-square&logo=oneplus&logoColor=white)](#使用)
+[![Xposed](https://img.shields.io/badge/Xposed-API%20102-7952B3?style=flat-square)](app/src/main/resources/META-INF/xposed/scope.list)
+[![Native protection](https://img.shields.io/badge/原生支持-自动跳过-2E7D32?style=flat-square)](app/src/main/java/com/daxiaamu/opluscameraenhance/NativeSupportPolicy.java)
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.3.10-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](build.gradle.kts)
+[![Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)](app/src/main/java/com/daxiaamu/opluscameraenhance/MainActivity.kt)
+[![COUI](https://img.shields.io/badge/UI-ColorOS%20COUI-00A862?style=flat-square)](app/src/main/java/com/daxiaamu/opluscameraenhance/ColorOsRuntime.kt)
+[![DexKit](https://img.shields.io/badge/DexKit-2.2.0-FF6F00?style=flat-square)](app/src/main/java/com/daxiaamu/opluscameraenhance/DexUiResolver.kt)
+[![Languages](https://img.shields.io/badge/语言-简繁中%20%C2%B7%20EN%20%C2%B7%20日本語%20%C2%B7%20한국어-546E7A?style=flat-square)](app/src/main/res/xml/locales_config.xml)
+
+[![Stars](https://img.shields.io/github/stars/daxiaamu/OPlusCameraEnhance?style=flat-square&logo=github)](https://github.com/daxiaamu/OPlusCameraEnhance/stargazers)
+[![Forks](https://img.shields.io/github/forks/daxiaamu/OPlusCameraEnhance?style=flat-square&logo=github)](https://github.com/daxiaamu/OPlusCameraEnhance/forks)
+[![Issues](https://img.shields.io/github/issues/daxiaamu/OPlusCameraEnhance?style=flat-square)](https://github.com/daxiaamu/OPlusCameraEnhance/issues)
+[![Last commit](https://img.shields.io/github/last-commit/daxiaamu/OPlusCameraEnhance?style=flat-square)](https://github.com/daxiaamu/OPlusCameraEnhance/commits/main/)
+[![Repository size](https://img.shields.io/github/repo-size/daxiaamu/OPlusCameraEnhance?style=flat-square)](https://github.com/daxiaamu/OPlusCameraEnhance)
+
+
 提供 Compose / Android 系统组件双界面的相机增强模块，目前支持 OPPO 哈苏磁吸闪光灯。
 
 ## 使用
