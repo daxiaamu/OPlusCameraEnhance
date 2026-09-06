@@ -1,6 +1,6 @@
 # OPlus Camera Enhance
 
-[![Version](https://img.shields.io/badge/version-0.3.8-007EC6?style=flat-square)](app/build.gradle.kts)
+[![Version](https://img.shields.io/badge/version-0.3.9-007EC6?style=flat-square)](app/build.gradle.kts)
 [![Android](https://img.shields.io/badge/Android-15%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](app/build.gradle.kts)
 [![OnePlus](https://img.shields.io/badge/OnePlus-ColorOS-F5010C?style=flat-square&logo=oneplus&logoColor=white)](#使用)
 [![Xposed](https://img.shields.io/badge/Xposed-API%20102-7952B3?style=flat-square)](app/src/main/resources/META-INF/xposed/scope.list)
@@ -19,7 +19,7 @@
 [![Repository size](https://img.shields.io/github/repo-size/daxiaamu/OPlusCameraEnhance?style=flat-square)](https://github.com/daxiaamu/OPlusCameraEnhance)
 
 
-让原本不支持的一加手机，也能使用 **OPPO 哈苏磁吸闪光灯**。
+让原本不支持的一加、真我及移植相应系统的设备，也能使用 **OPPO 哈苏磁吸闪光灯**。
 
 ## 功能
 
@@ -38,13 +38,13 @@
 | --- | --- |
 | **ColorOS 16** | 一加 15 已实机验证；原生已支持闪光灯的设备自动跳过增强 |
 | **OxygenOS 16** | 待验证，不能保证当前版本可用 |
-| **realme UI 7.0** | GT8 Pro ROM 静态检查通过；当前模块尚未放开真我品牌，待真机验证 |
+| **realme UI 7.0** | GT8 Pro ROM 静态检查通过，已移除品牌限制，待真机验证 |
 
-具体兼容性取决于原生相机与设备空间版本。[真我静态检查记录](docs/realme-rmx5200-compatibility.md)
+不限制设备品牌，小米等设备的移植系统也可尝试；须保留兼容的原生相机与设备空间，具体兼容性取决于系统和应用实现。[真我静态检查记录](docs/realme-rmx5200-compatibility.md)
 
 ## 使用
 
-1. 使用官方系统，并安装支持现代 Xposed API 102 的框架。
+1. 使用上述系统（含保留兼容组件的移植版），并安装支持现代 Xposed API 102 的框架。
 2. 安装、启用模块，允许自动添加「相机」「设备空间」作用域。
 3. 打开「强制支持磁吸闪光灯」，按界面提示重启目标应用；首次启用后如互联未生效，可重启手机。
 4. 打开一次原生相机并等待初始化完成，再连接闪光灯。

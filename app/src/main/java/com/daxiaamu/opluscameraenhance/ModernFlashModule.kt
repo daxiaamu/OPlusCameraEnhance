@@ -1,7 +1,6 @@
 package com.daxiaamu.opluscameraenhance
 import android.app.Application
 import android.content.Context
-import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import io.github.libxposed.api.XposedModule
@@ -15,7 +14,7 @@ class ModernFlashModule : XposedModule() {
   runCatching {
    val properties=Class.forName("android.os.SystemProperties")
    val original=properties.getMethod("get",String::class.java,String::class.java).invoke(null,NativeSupportPolicy.PROPERTY,"") as String
-   val decision=NativeSupportPolicy.decide(Build.BRAND,Build.MANUFACTURER,original,true)
+   val decision=NativeSupportPolicy.decide(original,true)
    reportLog("Guard: "+decision+" / "+param.packageName)
    if(decision!=NativeSupportPolicy.Decision.ELIGIBLE) return
     val config=runCatching { getRemotePreferences("features") }.getOrNull()

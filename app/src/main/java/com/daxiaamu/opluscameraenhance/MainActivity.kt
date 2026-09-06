@@ -1,6 +1,5 @@
 package com.daxiaamu.opluscameraenhance
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
 import android.net.Uri
 import android.widget.Toast
@@ -60,7 +59,7 @@ class MainActivity:ComponentActivity() {
    running.inputStream.bufferedReader().use { it.readText().trim() }
   }
   process?.destroy()
-  return NativeSupportPolicy.decide(Build.BRAND,Build.MANUFACTURER,raw.getOrNull(),raw.isSuccess)
+  return NativeSupportPolicy.decide(raw.getOrNull(),raw.isSuccess)
  }
  internal data class State(val applied:Boolean=false,val camera:Boolean=false,val devices:Boolean=false,val compatible:String="",val version:String="")
  internal fun receiptState():State {

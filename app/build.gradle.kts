@@ -11,8 +11,8 @@ android {
   testInstrumentationRunner = providers.gradleProperty("instrumentationRunner").getOrElse("com.daxiaamu.opluscameraenhance.UpdateChecks")
   minSdk = 35
   targetSdk = 36
-  versionCode = 16
-  versionName = "0.3.8"
+  versionCode = 17
+  versionName = "0.3.9"
  }
  buildFeatures { compose = true; buildConfig = true }
  compileOptions {
