@@ -1,5 +1,7 @@
 # OPlus Camera Enhance
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](LICENSE)
+
 [![Version](https://img.shields.io/badge/version-0.3.10-007EC6?style=flat-square)](app/build.gradle.kts)
 [![Android](https://img.shields.io/badge/Android-15%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](app/build.gradle.kts)
 [![OnePlus](https://img.shields.io/badge/OnePlus-ColorOS-F5010C?style=flat-square&logo=oneplus&logoColor=white)](#使用)
@@ -52,3 +54,7 @@
 支持简体中文、繁体中文（港澳台）、英语、日语和韩语。
 
 [反馈问题](https://github.com/daxiaamu/OPlusCameraEnhance/issues)
+
+## 许可证
+
+本项目原创代码采用 [GNU GPL v3.0](LICENSE)（SPDX：`GPL-3.0-only`）。第三方依赖遵循各自的许可证。
