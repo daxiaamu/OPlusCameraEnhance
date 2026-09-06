@@ -40,7 +40,7 @@
 | **OxygenOS 16** | 待验证，不能保证当前版本可用 |
 | **realme UI 7.0** | GT8 Pro ROM 静态检查通过，已移除品牌限制，待真机验证 |
 
-不限制设备品牌，小米等设备的移植系统也可尝试；须保留兼容的原生相机与设备空间，具体兼容性取决于系统和应用实现。[真我静态检查记录](docs/realme-rmx5200-compatibility.md)
+不限制设备品牌，小米等设备的移植系统也可尝试；须保留兼容的原生相机与设备空间，具体兼容性取决于系统和应用实现。
 
 ## 使用
 
@@ -51,4 +51,4 @@
 
 支持简体中文、繁体中文（港澳台）、英语、日语和韩语。
 
-[实现与 Hook 说明](docs/implementation.md) · [反馈问题](https://github.com/daxiaamu/OPlusCameraEnhance/issues)
+[反馈问题](https://github.com/daxiaamu/OPlusCameraEnhance/issues)
