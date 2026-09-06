@@ -1,6 +1,6 @@
 # OPlus Camera Enhance
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg?style=flat-square)](LICENSE)
+[![License: GPL v3 or later](https://img.shields.io/badge/License-GPL%20v3%2B-blue.svg?style=flat-square)](LICENSE)
 
 [![Version](https://img.shields.io/badge/version-0.3.10-007EC6?style=flat-square)](app/build.gradle.kts)
 [![Android](https://img.shields.io/badge/Android-15%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](app/build.gradle.kts)
@@ -57,4 +57,4 @@
 
 ## 许可证
 
-本项目原创代码采用 [GNU GPL v3.0](LICENSE)（SPDX：`GPL-3.0-only`）。第三方依赖遵循各自的许可证。
+本项目原创代码采用 [GNU 通用公共许可证第 3 版或（由你选择）任何更高版本](LICENSE)（SPDX：`GPL-3.0-or-later`）。第三方依赖遵循各自的许可证。
