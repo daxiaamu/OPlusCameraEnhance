@@ -1,6 +1,6 @@
 # OPlus Camera Enhance
 
-[![Version](https://img.shields.io/badge/version-0.3.9-007EC6?style=flat-square)](app/build.gradle.kts)
+[![Version](https://img.shields.io/badge/version-0.3.10-007EC6?style=flat-square)](app/build.gradle.kts)
 [![Android](https://img.shields.io/badge/Android-15%2B-3DDC84?style=flat-square&logo=android&logoColor=white)](app/build.gradle.kts)
 [![OnePlus](https://img.shields.io/badge/OnePlus-ColorOS-F5010C?style=flat-square&logo=oneplus&logoColor=white)](#使用)
 [![Xposed](https://img.shields.io/badge/Xposed-API%20102-7952B3?style=flat-square)](app/src/main/resources/META-INF/xposed/scope.list)

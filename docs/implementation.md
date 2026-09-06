@@ -41,3 +41,9 @@ NFC、显式连接请求、实际已连接设备等分支保持原行为。
 两个目标还 Hook Application.attach(Context)，在原方法执行后注册受签名权限保护的刷新接收器、发送注入回执；相机进程再启动 DexKit 解析。该 Hook 用于初始化及状态反馈。
 
 不限制品牌或制造商，允许移植系统尝试增强。入口先读取真实能力属性。已经原生支持或无法可靠读取时，跳过所有 Hook。关闭增强后不安装能力/UI/发现修复，仍可保留初始化回执与适配检查。
+
+## Release 构建
+
+从 0.3.10 开始，Release 使用 R8 代码压缩、优化、混淆及资源裁剪，Debug 保留调试构建。`app/proguard-rules.pro` 保留由 LSPosed 根据 `META-INF/xposed/java_init.list` 加载的模块入口；DexKit 的 JNI 保留规则来自其 AAR，Android 组件由 AGP 的清单规则保留。ColorOS 和相机反射目标来自外部 APK，不需要保留整个模块。
+
+每次发布保存对应的 `mapping.txt`，用于还原崩溃堆栈。修改反射或动态入口后，需要重新检查规则，并使用 Release 包验证目标进程注入与两种界面。
