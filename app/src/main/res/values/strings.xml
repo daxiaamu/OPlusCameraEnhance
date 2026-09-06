@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name" translatable="false">OPlus Camera Enhance</string>
+<string name="feature_title">Force magnetic flash support</string>
+<string name="feature_description">Enable NFC connection and all automatic and manual flash features of the OPPO Hasselblad magnetic flash.</string>
+<string name="native_supported">Natively supported · no enhancement needed</string>
+<string name="enhanced">Enhancement enabled</string>
+<string name="disabled">Enhancement disabled</string>
+<string name="pending_enable">Enhancement pending</string>
+<string name="pending_disable">Disable pending</string>
+<string name="checking">Checking…</string>
+<string name="unavailable">Unavailable on this device</string>
+<string name="camera_open">Open camera</string>
+<string name="source">View source</string>
+<string name="version">Version</string>
+<string name="check">Check for updates</string>
+<string name="scope_sync">Synchronizing camera and Device Space scope…</string>
+<string name="scope_unavailable">Enable this module in a framework supporting Xposed API 102.</string>
+<string name="scope_failed">Scope sync failed. Retry or select Camera and Device Space in the framework.</string>
+<string name="restart_needed">Force stop and reopen Camera and Device Space to apply changes.</string>
+<string name="injected">Code injected</string>
+<string name="not_injected">Injection not detected</string>
+<string name="checking_compat">Checking camera compatibility…</string>
+<string name="compat_supported">Camera adaptation checks passed</string>
+<string name="compat_unknown_camera">Camera not yet confirmed compatible · %1$s</string>
+<string name="camera_name">Camera</string>
+<string name="devices_name">Device Space</string>
+<string name="unknown">Unknown</string>
+<string name="save_failed">Could not save settings. Try again.</string>
+<string name="open_failed">Could not open camera</string>
+<string name="browser_failed">Could not open browser</string>
+<string name="update_failed">Update check failed. Try again later.</string>
+<string name="latest">Already up to date</string>
+<string name="required_update">Update required</string>
+<string name="new_update">Update available</string>
+<string name="published">Published: %1$s</string>
+<string name="skip">Skip version</string>
+<string name="ignore">Later</string>
+<string name="download_install">Download &amp; install</string>
+<string name="install">Install</string>
+<string name="install_continue">Continue install</string>
+<string name="retry">Retry</string>
+<string name="downloading">Downloading</string>
+<string name="verifying">Verifying</string>
+<string name="download_failed">Download or verification failed. Retry.</string>
+<string name="opening">Opening…</string>
+<string name="compat_unsupported">Current camera is not supported · %1$s</string><string name="system_ui">Use system interface</string><string name="coloros_unavailable">ColorOS UI is unavailable for this system version. Switched to Compose.</string><string name="explanation">Information</string><string name="section_features">Features</string>
+<string name="section_about">About</string>
+<string name="section_appearance">Appearance</string>
+</resources>

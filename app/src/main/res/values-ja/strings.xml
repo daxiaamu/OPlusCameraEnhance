@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name" translatable="false">OPlus Camera Enhance</string>
+<string name="feature_title">マグネット式フラッシュの対応を強制</string>
+<string name="feature_description">OPPO Hasselblad マグネット式フラッシュの NFC 接続、自動・手動発光など、すべての機能に対応します。</string>
+<string name="native_supported">標準対応済み・拡張は不要</string>
+<string name="enhanced">拡張が有効</string>
+<string name="disabled">拡張が無効</string>
+<string name="pending_enable">有効化待ち</string>
+<string name="pending_disable">無効化待ち</string>
+<string name="checking">確認中…</string>
+<string name="unavailable">この端末では利用できません</string>
+<string name="camera_open">カメラを開く</string>
+<string name="source">ソースコード</string>
+<string name="version">バージョン</string>
+<string name="check">更新を確認</string>
+<string name="scope_sync">カメラとデバイススペースの適用範囲を同期中…</string>
+<string name="scope_unavailable">Xposed API 102 対応のフレームワークでモジュールを有効にしてください。</string>
+<string name="scope_failed">適用範囲の同期に失敗しました。再試行するか、フレームワークでカメラとデバイススペースを選択してください。</string>
+<string name="restart_needed">設定を適用するには、カメラとデバイススペースを強制停止してから開き直してください。</string>
+<string name="injected">コード注入済み</string>
+<string name="not_injected">注入を未検出</string>
+<string name="checking_compat">カメラの互換性を確認中…</string>
+<string name="compat_supported">カメラの適合確認に合格</string>
+<string name="compat_unknown_camera">カメラの対応を未確認 · %1$s</string>
+<string name="camera_name">カメラ</string>
+<string name="devices_name">デバイススペース</string>
+<string name="unknown">不明</string>
+<string name="save_failed">設定を保存できません。再試行してください。</string>
+<string name="open_failed">カメラを開けません</string>
+<string name="browser_failed">ブラウザーを開けません</string>
+<string name="update_failed">更新を確認できません。後でもう一度お試しください。</string>
+<string name="latest">最新バージョンです</string>
+<string name="required_update">更新が必要です</string>
+<string name="new_update">新しいバージョンがあります</string>
+<string name="published">公開日時：%1$s</string>
+<string name="skip">この版をスキップ</string>
+<string name="ignore">後で</string>
+<string name="download_install">ダウンロード・インストール</string>
+<string name="install">インストール</string>
+<string name="install_continue">インストールを続行</string>
+<string name="retry">再試行</string>
+<string name="downloading">ダウンロード中</string>
+<string name="verifying">検証中</string>
+<string name="download_failed">ダウンロードまたは検証に失敗しました。再試行してください。</string>
+<string name="opening">起動中…</string>
+<string name="compat_unsupported">現在のカメラバージョンは未対応 · %1$s</string><string name="system_ui">システム標準の画面を使用</string><string name="coloros_unavailable">このシステムの ColorOS UI は未対応です。Compose に切り替えました。</string><string name="explanation">情報</string><string name="section_features">機能</string>
+<string name="section_about">このアプリについて</string>
+<string name="section_appearance">表示スタイル</string>
+</resources>

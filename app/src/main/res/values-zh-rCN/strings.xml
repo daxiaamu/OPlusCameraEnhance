@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name" translatable="false">OPlus Camera Enhance</string>
+<string name="feature_title">强制支持磁吸闪光灯</string>
+<string name="feature_description">支持 OPPO 哈苏磁吸闪光灯的 NFC 互联以及自动、手动闪光等全部功能</string>
+<string name="native_supported">已原生支持，无需增强</string>
+<string name="enhanced">已启用增强</string>
+<string name="disabled">已关闭增强</string>
+<string name="pending_enable">待启用增强</string>
+<string name="pending_disable">待关闭增强</string>
+<string name="checking">正在检查</string>
+<string name="unavailable">当前设备不可用</string>
+<string name="camera_open">打开相机</string>
+<string name="source">查看源码</string>
+<string name="version">版本</string>
+<string name="check">检查更新</string>
+<string name="scope_sync">正在同步相机和设备空间作用域…</string>
+<string name="scope_unavailable">请在支持 Xposed API 102 的框架中启用模块。</string>
+<string name="scope_failed">作用域同步失败，请重试或在框架中勾选相机和设备空间。</string>
+<string name="restart_needed">请强行停止并重新打开相机和设备空间，使设置生效。</string>
+<string name="injected">代码已注入</string>
+<string name="not_injected">尚未检测到注入</string>
+<string name="checking_compat">正在检测相机适配…</string>
+<string name="compat_supported">当前相机适配检测通过</string>
+<string name="compat_unknown_camera">当前相机尚未确认适配 · %1$s</string>
+<string name="camera_name">相机</string>
+<string name="devices_name">设备空间</string>
+<string name="unknown">未知</string>
+<string name="save_failed">设置保存失败，请重试</string>
+<string name="open_failed">无法打开相机</string>
+<string name="browser_failed">无法打开浏览器</string>
+<string name="update_failed">检测更新失败，请稍后重试</string>
+<string name="latest">已是最新版</string>
+<string name="required_update">必须更新</string>
+<string name="new_update">发现新版本</string>
+<string name="published">发布时间：%1$s</string>
+<string name="skip">跳过此版本</string>
+<string name="ignore">忽略</string>
+<string name="download_install">下载安装</string>
+<string name="install">安装</string>
+<string name="install_continue">继续安装</string>
+<string name="retry">重试</string>
+<string name="downloading">下载中</string>
+<string name="verifying">校验中</string>
+<string name="download_failed">下载或校验失败，请重试</string>
+<string name="opening">正在打开</string>
+<string name="compat_unsupported">当前相机版本暂不支持 · %1$s</string><string name="system_ui">使用系统界面</string><string name="coloros_unavailable">当前系统版本的 ColorOS 界面暂不兼容，已切换为 Compose。</string><string name="explanation">信息</string><string name="section_features">功能</string>
+<string name="section_about">关于</string>
+<string name="section_appearance">界面样式</string>
+</resources>

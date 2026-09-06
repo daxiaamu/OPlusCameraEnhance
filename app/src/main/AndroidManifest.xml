@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+ <permission android:name="com.daxiaamu.opluscameraenhance.STATUS" android:protectionLevel="signature" />
+ <uses-permission android:name="com.daxiaamu.opluscameraenhance.STATUS" />
+ <uses-permission android:name="android.permission.INTERNET" /><uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /><queries><package android:name="com.heytap.speechassist" /><package android:name="com.android.settings" /><package android:name="com.oplus.camera" /><package android:name="com.heytap.mydevices" /></queries>
+ <application android:name=".ModuleApplication" android:description="@string/feature_description" android:localeConfig="@xml/locales_config" android:usesCleartextTraffic="false" android:label="@string/app_name" android:allowBackup="false" android:theme="@android:style/Theme.Material.Light.NoActionBar">
+  <provider android:name=".SettingsProvider" android:authorities="com.daxiaamu.opluscameraenhance.settings" android:exported="true" />
+  <provider android:name="androidx.core.content.FileProvider" android:authorities="com.daxiaamu.opluscameraenhance.fileprovider" android:exported="false" android:grantUriPermissions="true">
+   <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+  </provider>
+  <activity android:name=".MainActivity" android:exported="true">
+   <intent-filter>
+    <action android:name="android.intent.action.MAIN" />
+    <category android:name="android.intent.category.LAUNCHER" />
+   </intent-filter>
+  </activity>
+ </application>
+</manifest>
