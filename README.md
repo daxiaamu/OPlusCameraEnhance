@@ -21,7 +21,7 @@
 [![Repository size](https://img.shields.io/github/repo-size/daxiaamu/OPlusCameraEnhance?style=flat-square)](https://github.com/daxiaamu/OPlusCameraEnhance)
 
 
-让原本不支持的一加、真我及移植相应系统的设备，也能使用 **OPPO 哈苏磁吸闪光灯**。
+让原本不支持的一加、真我及移植相应系统的设备，也能使用 **[OPPO 哈苏磁吸闪光灯](https://www.opposhop.cn/cn/web/products/37278.html)**。
 
 ## 功能
 
