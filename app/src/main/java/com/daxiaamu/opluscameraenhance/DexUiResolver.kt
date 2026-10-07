@@ -17,7 +17,7 @@ import java.security.MessageDigest
 
 /** Semantic DEX lookup; no camera class, obfuscated method, field or version mappings. */
 object DexUiResolver {
- private const val SCHEMA = "flash-ui-v2"
+ private const val SCHEMA = "flash-ui-v3"
  private data class Mapping(val expand: Method, val collapse: Method, val siblings: Method,
    val icon: Method, val spacing: Method, val list: Field)
 
@@ -47,7 +47,18 @@ object DexUiResolver {
       require(found.size == 1) { "Non-unique DEX anchor: $text (${found.size})" }
       return found.single()
      }
-     val expand = find("expandAnim, debug, mbUseSharedIcon:", emptyList())
+     // OS 17 removed the old debug message. Require both recovery anchors and
+     // all existing owner, call and field checks below still apply.
+     val expandCandidates = bridge.findMethod { matcher {
+      usingStrings("expandAnim, debug, mbUseSharedIcon:"); returnType = "void"
+     } }.filter { it.paramTypeNames.isEmpty() && !Modifier.isStatic(it.modifiers) }
+     val expand = if (expandCandidates.isEmpty()) {
+      bridge.findMethod { matcher {
+       usingStrings("expandAnim, recover deferred icon back to mStartView",
+         "expandAnim, recover attach from mStartView")
+       returnType = "void"
+      } }.filter { it.paramTypeNames.isEmpty() && !Modifier.isStatic(it.modifiers) }.single()
+     } else expandCandidates.single()
      // Newer stock code may already implement the external branch. Never double-patch it.
      if ("pref_app_outflash_key" in expand.usingStrings) { Receipt.send(context,revision,"compatible"); return }
      require("pref_camera_flashmode_key" in expand.usingStrings && "pref_app_outflash_key" !in expand.usingStrings) {
