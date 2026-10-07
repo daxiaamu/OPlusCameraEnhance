@@ -1,6 +1,6 @@
 {
-  "policyRevision": 2,
-  "manifestSha256": "edc2e1ae52f6c4e2fe4d5b77de5699c27b3b0985f57a6e3cca0a8925fc4b6a64",
-  "manifestUrl": "https://raw.githubusercontent.com/daxiaamu/OPlusCameraEnhance/33e4d950e378c4a076d4dcde32704e28d5d46441/update/manifests/stable-2-edc2e1ae52f6c4e2fe4d5b77de5699c27b3b0985f57a6e3cca0a8925fc4b6a64.json",
-  "expiresAt": "2027-09-06T17:26:58.470073+00:00"
+  "policyRevision": 3,
+  "manifestSha256": "3474cdbb5320362ee4b7fc297baf279e3b3b421d487432842836cc3bd5f8fa72",
+  "manifestUrl": "https://raw.githubusercontent.com/daxiaamu/OPlusCameraEnhance/b8407ecb702a4924cae9ab83c127e2a3b6f78eb9/update/manifests/stable-3-3474cdbb5320362ee4b7fc297baf279e3b3b421d487432842836cc3bd5f8fa72.json",
+  "expiresAt": "2027-10-07T18:21:00.389359+00:00"
 }
